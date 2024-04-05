@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Open Horizon
-description: An Open Source Project for secure and robust containerized application management for constrained devices.
+title: EdgeLake
+description: Your data lake on the edge
 baseurl: ""
-url: https://open-horizon.github.io
+url: https://edgelake.github.io
 remote_theme: just-the-docs/just-the-docs
 permalink: pretty
 
@@ -50,15 +50,15 @@ exclude:
    - LICENSE
 
 # Secondary Parameters
-header-img: img/hero-dark.jpg
-og-image: img/hero-dark-site.png
+header-img: imgs/edgelake_logo.png
+og-image: imgs/edgelake_logo.png
 headercolor: "#FFFFFF"
 # logo: img/logos/open-horizon.png
-favicon_ico: "/img/favicon.png"
+favicon_ico: "/imgs/edgelake_logo.png"
 
 # Tertiary Parameters
-github_username: open-horizon
-project_repository: open-horizon.github.io
+github_username: edgelake
+project_repository: edgelake.github.io
 altmetric: true
 
 # Enable or disable the site search
@@ -105,17 +105,17 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Home":
-   - "/"
-  "Quick Start":
-   - "/quick-start/"
-  "Docs":
-   - "/docs/"
-  "FAQ":
-   - "/docs/getting_started/faq/"
-  "Open Horizon on GitHub":
-   - "//github.com/open-horizon"
+#aux_links:
+#  "Home":
+#   - "/"
+#  "Quick Start":
+#   - "/quick-start/"
+#  "Docs":
+#   - "/docs/"
+#  "FAQ":
+#   - "/docs/getting_started/faq/"
+#  "Open Horizon on GitHub":
+#   - "//github.com/open-horizon"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -126,10 +126,12 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Open Horizon Video playlist
-    url: https://www.youtube.com/playlist?list=PLgohd895XSUddtseFy4HxCqTqqlYfW8Ix
-  - title: Open Horizon on GitHub
-    url: https://github.com/open-horizon
+  - title: Install EdgeLake
+    url: https://github.com/edgelake/docker-compose
+  - title: Install EdgeLake with OpenHorizon
+    url: https://github.com/open-horizon-services/service-edgelake
+  - title: AnyLog Video playlist
+    url: https://www.youtube.com/@anyLog-co
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -147,7 +149,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/open-horizon/open-horizon.github.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/edgelake/edgelake.github.io" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
