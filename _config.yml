@@ -50,10 +50,10 @@ exclude:
    - LICENSE
 
 # Secondary Parameters
-header-img: imgs/edgelake_logo.png
-og-image: imgs/edgelake_logo.png
+header-img: /img/edgelake_logo.png
+og-image: /img/edgelake_logo.png
 headercolor: "#FFFFFF"
-# logo: img/logos/open-horizon.png
+logo: /img/edgelake_logo.png
 favicon_ico: "/imgs/edgelake_logo.png"
 
 # Tertiary Parameters
